@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Tp2Application/App.axaml" value="Tp2Application/Tp2Application.csproj" />
+        <entry key="Tp2Application/Views/AddKnowledgeView.axaml" value="Tp2Application/Tp2Application.csproj" />
+        <entry key="Tp2Application/Views/AdminView.axaml" value="Tp2Application/Tp2Application.csproj" />
+        <entry key="Tp2Application/Views/ConfirmCancelPopup.axaml" value="Tp2Application/Tp2Application.csproj" />
+        <entry key="Tp2Application/Views/Connection.axaml" value="Tp2Application/Tp2Application.csproj" />
+        <entry key="Tp2Application/Views/ConnectionView.axaml" value="Tp2Application/Tp2Application.csproj" />
+        <entry key="Tp2Application/Views/DetailsView.axaml" value="Tp2Application/Tp2Application.csproj" />
+        <entry key="Tp2Application/Views/Dialogue.axaml" value="Tp2Application/Tp2Application.csproj" />
+        <entry key="Tp2Application/Views/KnowledgeResearchView.axaml" value="Tp2Application/Tp2Application.csproj" />
+        <entry key="Tp2Application/Views/KnowledgeView.axaml" value="Tp2Application/Tp2Application.csproj" />
+        <entry key="Tp2Application/Views/MainWindow.axaml" value="Tp2Application/Tp2Application.csproj" />
+        <entry key="Tp2Application/Views/ManageKnowledgeView.axaml" value="Tp2Application/Tp2Application.csproj" />
+        <entry key="Tp2Application/Views/ManageUserView.axaml" value="Tp2Application/Tp2Application.csproj" />
+        <entry key="Tp2Application/Views/RegisterView.axaml" value="Tp2Application/Tp2Application.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

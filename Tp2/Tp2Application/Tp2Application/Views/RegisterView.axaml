@@ -1,0 +1,74 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Tp2Application.Views.RegisterView"
+             x:CompileBindings="True"
+             xmlns:vm="using:Tp2Application.ViewModels"
+             x:DataType="vm:RegisterViewModel">
+        
+        <Design.DataContext>
+            <vm:RegisterViewModel/>
+        </Design.DataContext>
+    
+        <UserControl.Styles>
+            <Style Selector="Button.btnConnection:pointerover/template/ContentPresenter">
+                <Setter Property="Background" Value="CornflowerBlue"/>
+                <Setter Property="Foreground" Value="White"></Setter>
+            </Style>
+            <Style Selector="Button.btnRegister:pointerover/template/ContentPresenter">
+                <Setter Property="Background" Value="DeepPink"/>
+                <Setter Property="Foreground" Value="White"></Setter>
+            </Style>
+        </UserControl.Styles>
+            
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2.5*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="2.5*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="3*"/>
+                </Grid.RowDefinitions>
+                
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom" Spacing="10" Margin="0, 0, 0, 20">
+                    <TextBlock Text="Nouveau dans le codex" Foreground="White" FontSize="26" FontWeight="Bold"/>
+                    <TextBlock Text="Veuillez vous inscrire" Foreground="White" FontSize="18" HorizontalAlignment="Center"/>
+                </StackPanel>
+                
+                <StackPanel Grid.Row="1" VerticalAlignment="Center" Spacing="5" Margin="0, 00, 0, 5">
+                    <TextBlock Text="Nom d'utilisateur" Foreground="White"/>
+                    <TextBox Text="{Binding Username}"/>
+                </StackPanel>
+                
+                <StackPanel Grid.Row="2" VerticalAlignment="Center" Spacing="5" Margin="0, 5, 0, 5">
+                    <TextBlock Text="Mot de passe" Foreground="White"/>
+                    <TextBox PasswordChar="*" RevealPassword="False" Text="{Binding Password}"></TextBox>
+                </StackPanel>
+                
+                <StackPanel Grid.Row="3" VerticalAlignment="Center" Spacing="5" Margin="0, 5, 0, 0">
+                    <TextBlock Text="Confirmation du mot de passe" Foreground="White"/>
+                    <TextBox PasswordChar="*" RevealPassword="False" Text="{Binding ConfirmedPassword}"></TextBox>
+                </StackPanel>
+                
+                <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="20" Margin="0, 20, 0, 0">
+                    <Button Classes="btnConnection" Background="LightSkyBlue" Cursor="Hand" Content="Se connecter" Foreground="White" Command="{Binding Connection}"/>
+                    <Button Classes="btnRegister" IsEnabled="{Binding Activated}" Background="HotPink" Cursor="Hand" Content="S'inscrire" Foreground="White" Command="{Binding Register}"/>
+                </StackPanel>
+                
+                <StackPanel Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    <TextBlock Foreground="Red" Text="{Binding Error}"/>
+                </StackPanel>
+                
+            </Grid>
+        </Grid>
+</UserControl>

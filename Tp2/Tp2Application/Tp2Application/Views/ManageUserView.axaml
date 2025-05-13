@@ -1,0 +1,89 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+            x:Class="Tp2Application.Views.ManageUserView"
+            xmlns:vm="using:Tp2Application.ViewModels"
+            x:DataType="vm:ManageUserViewModel">
+    
+        <Design.DataContext>
+            <vm:ManageUserViewModel/>
+        </Design.DataContext>
+        
+        <UserControl.Styles>
+            <Style Selector="Border">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <LinearGradientBrush StartPoint="0%,0%" EndPoint="1%,0.7%">
+                            <GradientStop Color="#24105F" Offset="0"/>
+                            <GradientStop Color="#210F55" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style Selector="Button">
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+                <Setter Property="Background" Value="#BCBEE0"/>
+            </Style>
+            <Style Selector="Button:pointerover /template/ContentPresenter">
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+                <Setter Property="Background" Value="#7376BD"/>
+            </Style>
+        </UserControl.Styles>
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="8*"/>
+                </Grid.RowDefinitions>
+                
+                <Border Grid.Row="0" CornerRadius="10" Margin="50,30,25,15" ClipToBounds="True">
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock Foreground="White" Text="Liste des inactifs"/>
+                        <Button HorizontalAlignment="Center" Command="{Binding Delete}" Content="Supprimer"/>
+                    </StackPanel>
+                </Border>
+                
+                <Border Grid.Row="1" CornerRadius="10" Margin="50,15,25,30" ClipToBounds="True">
+                    <ListBox ItemsSource="{Binding ListInactifUser}" ScrollViewer.VerticalScrollBarVisibility="Auto" SelectedItem="{Binding SelectedInactif}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Usernameapp}"/>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>                     
+                </Border>
+            </Grid>
+                
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="8*"/>
+                </Grid.RowDefinitions>
+                
+                <Border Grid.Row="0" CornerRadius="10" Margin="25,30,50,15" ClipToBounds="True">
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock Foreground="White" Text="Liste des utilisateur"/>
+                        <Button HorizontalAlignment="Center" Command="{Binding Promote}" Content="Promouvoir"/>
+                    </StackPanel>
+                </Border>
+                
+                <Border Grid.Row="1" CornerRadius="10" Margin="25,15,50,30" ClipToBounds="True">
+                    <ListBox ItemsSource="{Binding ListRegularUser}" ScrollViewer.VerticalScrollBarVisibility="Auto" SelectedItem="{Binding SelectedRegular}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Usernameapp}"/>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>                     
+                </Border>
+            </Grid>
+        </Grid>
+</UserControl>

@@ -1,0 +1,95 @@
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.csproj.AssemblyReference.cache
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.AssemblyInfoInputs.cache
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.AssemblyInfo.cs
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.csproj.CoreCompileInputs.cache
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\appsettings.json
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Tp2Api.exe
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Tp2Api.deps.json
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Tp2Api.runtimeconfig.json
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Tp2Api.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Tp2Api.pdb
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\EFCore.NamingConventions.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Npgsql.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets\msbuild.Tp2Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets\msbuild.build.Tp2Api.props
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Tp2Api.props
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Tp2Api.props
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\scopedcss\bundle\Tp2Api.styles.css
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.csproj.CopyComplete
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\refint\Tp2Api.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.pdb
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.genruntimeconfig.cache
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\ref\Tp2Api.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Humanizer.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\yanni\OneDrive - Cegep de Lanaudiere\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\BCrypt.Net-Next.StrongName.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\appsettings.json
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Tp2Api.staticwebassets.endpoints.json
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Tp2Api.exe
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Tp2Api.deps.json
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Tp2Api.runtimeconfig.json
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Tp2Api.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Tp2Api.pdb
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\BCrypt.Net-Next.StrongName.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\EFCore.NamingConventions.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Humanizer.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Npgsql.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.csproj.AssemblyReference.cache
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.AssemblyInfoInputs.cache
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.AssemblyInfo.cs
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.csproj.CoreCompileInputs.cache
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.sourcelink.json
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\scopedcss\bundle\Tp2Api.styles.css
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets\msbuild.Tp2Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets\msbuild.Tp2Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets\msbuild.build.Tp2Api.props
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Tp2Api.props
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Tp2Api.props
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.csproj.Up2Date
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\refint\Tp2Api.dll
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.pdb
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\Tp2Api.genruntimeconfig.cache
+C:\Users\yanni\OneDrive - USherbrooke\Cégep\Base de donnée 2\420-B56-JO\Tp2\Tp2Api\Tp2Api\obj\Debug\net7.0\ref\Tp2Api.dll

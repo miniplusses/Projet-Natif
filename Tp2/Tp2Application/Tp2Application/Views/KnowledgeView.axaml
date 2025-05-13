@@ -1,0 +1,92 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:CompileBindings="True"
+             x:Class="Tp2Application.Views.KnowledgeView"
+             xmlns:vm="using:Tp2Application.ViewModels"
+             x:DataType="vm:KnowledgeViewModel">
+        
+        <Design.DataContext>
+                <vm:KnowledgeViewModel />
+        </Design.DataContext>
+    
+        <UserControl.Styles>
+            <Style Selector="Button.btnToggle:pointerover/template/ContentPresenter">
+                <Setter Property="Background" Value="CadetBlue"/>
+            </Style>
+            <Style Selector="Button.btnToggle">
+                <Setter Property="Background" Value="LightSkyBlue"/>
+            </Style>
+            <Style Selector="ListBox">
+                <Setter Property="ItemTemplate">
+                    <Setter.Value>
+                        <DataTemplate>
+                            <ToggleButton IsChecked="{Binding IsSelected, Mode=TwoWay, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListBoxItem}}}"/>
+                        </DataTemplate>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="Foreground" Value="#7376BD"/>
+            </Style>
+            <Style Selector="ListBoxItem:pointerover/template/ContentPresenter">
+                <Setter Property="Background" Value="#281269"/>
+                <Setter Property="Foreground" Value="#BCBEE0"/>
+            </Style>
+            <Style Selector="ListBoxItem:selected/template/ContentPresenter">
+                <Setter Property="Background" Value="#2B1372"/>
+                <Setter Property="Foreground" Value="#D5CFF5"/>
+            </Style>
+        </UserControl.Styles>
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="8*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="8*"/>
+                </Grid.RowDefinitions>
+                
+                <Grid.Background>
+                    <LinearGradientBrush StartPoint="0%,0%" EndPoint="1%,0.7%">
+                        <GradientStop Color="#24105F" Offset="0"/>
+                        <GradientStop Color="#210F55" Offset="1"/>
+                    </LinearGradientBrush>
+                </Grid.Background>
+            
+                <StackPanel Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="5">
+                    <TextBlock Text="Le Codex" Foreground="White" FontSize="22" FontWeight="Bold" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Archive de jeux vidéo" Foreground="White" FontSize="16" HorizontalAlignment="Center"/>
+                </StackPanel>
+                
+                <StackPanel Grid.Row="1">
+                    <Border BorderThickness="0,1,0,1" BorderBrush="#7376BD" Opacity="1"/>
+                    <ListBox ItemsSource="{Binding RegularButtons}" SelectedItem="{Binding RegularSelectedButton}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding}"/>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    <Border BorderThickness="0,1,0,1" BorderBrush="#7376BD" Opacity="0.5" IsVisible="{Binding IsAdmin}"/>
+                    <ListBox ItemsSource="{Binding AdminButtons}" SelectedItem="{Binding AdminSelectedButton}"  IsVisible="{Binding IsAdmin}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding}"/>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+            </Grid>
+            
+            <Grid Grid.Column="1">
+                <TransitioningContentControl Content="{Binding CurrentPage}" />
+            </Grid>
+                                   
+        </Grid>
+</UserControl>

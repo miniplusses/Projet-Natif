@@ -1,0 +1,216 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Tp2Application.Views.ManageKnowledgeView"
+             xmlns:vm="using:Tp2Application.ViewModels"
+             x:DataType="vm:ManageKnowledgeViewModel"
+             PointerPressed="InputElement_OnPointerPressed">
+    
+        <Design.DataContext>
+            <vm:ManageKnowledgeViewModel/>
+        </Design.DataContext>
+        
+        <UserControl.Styles>
+            <Style Selector="Border">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <LinearGradientBrush StartPoint="0%,0%" EndPoint="1%,0.7%">
+                            <GradientStop Color="#24105F" Offset="0"/>
+                            <GradientStop Color="#210F55" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style Selector="TextBox">
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="Margin" Value="0,2.5,0,2.5"/>
+            </Style>
+            <Style Selector="TextBox /template/Border">
+                <Setter Property="BorderThickness" Value="2"/>
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+                <Setter Property="CornerRadius" Value="3"/>
+                <Setter Property="Background" Value="#281269"/>
+            </Style>
+            <Style Selector="TextBox:pointerover /template/Border">
+                <Setter Property="Background" Value="#BCBEE0"/>
+                <Setter Property="BorderThickness" Value="3"/>
+            </Style>
+            <Style Selector="TextBox:focus /template/Border">
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+                <Setter Property="Background" Value="#BCBEE0"/>
+            </Style>
+            <Style Selector="TextBlock.TextEdit">
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontSize" Value="14"/>
+            </Style>
+            <Style Selector="StackPanel > Button.Edit">
+                <Setter Property="Background" Value="Gold"/>
+            </Style>
+            <Style Selector="StackPanel > Button.Edit:pointerover /template/ContentPresenter">
+                <Setter Property="Background" Value="Yellow"/>
+            </Style>
+            <Style Selector="StackPanel > Button.Delete">
+                <Setter Property="Background" Value="DarkRed"/>
+            </Style>
+            <Style Selector="StackPanel > Button.Delete:pointerover /template/ContentPresenter">
+                <Setter Property="Background" Value="Red"/>
+            </Style>
+            <Style Selector="Grid > Button">
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+                <Setter Property="Background" Value="#BCBEE0"/>
+            </Style>
+            <Style Selector="Grid > Button:pointerover /template/ContentPresenter">
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+                <Setter Property="Background" Value="#7376BD"/>
+            </Style>
+        </UserControl.Styles>
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Grid Grid.Column="0">
+                <Border CornerRadius="10"  Margin="50,30,25,30" ClipToBounds="True">
+                    <ListBox ItemsSource="{Binding ListKnowledge}" ScrollViewer.VerticalScrollBarVisibility="Auto" SelectedItem="{Binding SelectedItem}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid ColumnDefinitions="Auto, *" RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto">
+                                    <TextBlock Grid.Row="0" Text="Titre: "/>
+                                    <TextBlock Grid.Row="0"
+                                               Grid.Column="1"
+                                               Text="{Binding title}"
+                                               TextWrapping="Wrap"/>
+
+                                    <TextBlock Grid.Row="1" Text="Description: "/>
+                                    <TextBlock Grid.Row="1"
+                                               Grid.Column="1"
+                                               Text="{Binding description}"
+                                               TextWrapping="Wrap"/>
+
+                                    <TextBlock Grid.Row="2" Text="Champs optionnels: "/>
+
+                                    <TextBlock Grid.Row="3" Text="   Catégorie: "/>
+                                    <TextBlock Grid.Row="3"
+                                               Grid.Column="1"
+                                               Text="{Binding data.CategorieFormatted}"
+                                               TextWrapping="Wrap"/>
+                                    <TextBlock Grid.Row="4" Text="   Prix: "/>
+                                    <TextBlock Grid.Row="4"
+                                               Grid.Column="1"
+                                               Text="{Binding data.prix}"
+                                               TextWrapping="Wrap"/>
+                                    <TextBlock Grid.Row="5" Text="   Développement: "/>
+                                    <TextBlock Grid.Row="6" Text="      Développeur: "/>
+                                    <TextBlock Grid.Row="6"
+                                               Grid.Column="1"
+                                               Text="{Binding data.developpement.developpeur}"
+                                               TextWrapping="Wrap"/>
+                                    <TextBlock Grid.Row="7" Text="      Éditeur: "/>
+                                    <TextBlock Grid.Row="7"
+                                               Grid.Column="1"
+                                               Text="{Binding data.developpement.editeur}"
+                                               TextWrapping="Wrap"/>
+                                    <TextBlock Grid.Row="8" Text="      Franchise: "/>
+                                    <TextBlock Grid.Row="8"
+                                               Grid.Column="1"
+                                               Text="{Binding data.developpement.franchise}"
+                                               TextWrapping="Wrap"/>
+                                    <TextBlock Grid.Row="9" Text="      Date de parution: "/>
+                                    <TextBlock Grid.Row="9"
+                                               Grid.Column="1"
+                                               Text="{Binding data.developpement.parution}"
+                                               TextWrapping="Wrap"/>
+                                    <TextBlock Grid.Row="10" Text="   Évaluation: "/>
+                                    <TextBlock Grid.Row="10"
+                                               Grid.Column="1"
+                                               Text="{Binding data.evaluation}"
+                                               TextWrapping="Wrap"/>
+                                    <TextBlock Grid.Row="11" Text="   Platforme: "/>
+                                    <TextBlock Grid.Row="11"
+                                               Grid.Column="1"
+                                               Text="{Binding data.platforme}"
+                                               TextWrapping="Wrap"/>
+                                    <TextBlock Grid.Row="12" Text="   Manette: "/>
+                                    <TextBlock Grid.Row="12"
+                                               Grid.Column="1"
+                                               Text="{Binding data.manette}"
+                                               TextWrapping="Wrap"/>
+                                    <TextBlock Grid.Row="13" Text="   Complet: "/>
+                                    <TextBlock Grid.Row="13"
+                                               Grid.Column="1"
+                                               Text="{Binding data.CompletTranslate}"
+                                               TextWrapping="Wrap"/>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Border>
+            </Grid>
+                
+            <Grid Grid.Column="1">
+                <Border CornerRadius="10" Margin="25,30,50,30" ClipToBounds="True">
+                    <Grid VerticalAlignment="Center" Margin="15,0,15,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        
+                        <TextBlock Grid.Column="0" Grid.Row="0" Text="Titre: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="1" Text="Description: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="2" Text="Catégorie: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="3" Text="Prix: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="4" Text="Parution: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="5" Text="Développeur: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="6" Text="Éditeur: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="7" Text="Franchise: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="8" Text="Évaluation: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="9" Text="Platforme: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="10" Text="Manette: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="11" Text="Complet: " Classes="TextEdit"/>
+                        
+                        <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding SelectedKnowledge.title}"/>
+                        <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding SelectedKnowledge.description}"/>
+                        <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding SelectedKnowledge.data.CategorieFormatted}"/>
+                        <TextBox Grid.Column="1" Grid.Row="3" Text="{Binding SelectedKnowledge.data.prix}"/>
+                        <TextBox Grid.Column="1" Grid.Row="4" Text="{Binding SelectedKnowledge.data.developpement.parutionFormatted}" Watermark="AAAA-MM-JJ"/>
+                        <TextBox Grid.Column="1" Grid.Row="5" Text="{Binding SelectedKnowledge.data.developpement.developpeur}"/>
+                        <TextBox Grid.Column="1" Grid.Row="6" Text="{Binding SelectedKnowledge.data.developpement.editeur}"/>
+                        <TextBox Grid.Column="1" Grid.Row="7" Text="{Binding SelectedKnowledge.data.developpement.franchise}"/>
+                        <TextBox Grid.Column="1" Grid.Row="8" Text="{Binding SelectedKnowledge.data.evaluation}"/>
+                        <TextBox Grid.Column="1" Grid.Row="9" Text="{Binding SelectedKnowledge.data.platforme}"/>
+                        <TextBox Grid.Column="1" Grid.Row="10" Text="{Binding SelectedKnowledge.data.manette}"/>
+                        <Button Grid.Column="1" Grid.Row="11" Command="{Binding Completed}" Content="{Binding CompleteEntry}"/>
+                        
+                        <StackPanel Grid.Row="12" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,35,0,0" Spacing="15">
+                            <Button Classes="Edit" Command="{Binding Edit}">Modifier</Button>
+                            <Button Classes="Delete" Command="{Binding Delete}">Supprimer</Button>
+                        </StackPanel>
+                        
+                        <TextBlock TextWrapping="Wrap" Grid.Row="13" Grid.Column="1" Foreground="Red" Text="{Binding Confirmation}"/>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+</UserControl>

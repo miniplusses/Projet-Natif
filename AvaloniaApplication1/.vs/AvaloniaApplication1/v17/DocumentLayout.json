@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\avaloniaapplication1\\avaloniaapplication1\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|solutionrelative:avaloniaapplication1\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\avaloniaapplication1\\avaloniaapplication1\\viewmodels\\dialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|solutionrelative:avaloniaapplication1\\viewmodels\\dialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\avaloniaapplication1\\avaloniaapplication1\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|solutionrelative:avaloniaapplication1\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\avaloniaapplication1\\avaloniaapplication1\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|solutionrelative:avaloniaapplication1\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\avaloniaapplication1\\avaloniaapplication1\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|solutionrelative:avaloniaapplication1\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\avaloniaapplication1\\avaloniaapplication1\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|solutionrelative:avaloniaapplication1\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\avaloniaapplication1\\avaloniaapplication1\\views\\dialogue.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|solutionrelative:avaloniaapplication1\\views\\dialogue.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\avaloniaapplication1\\avaloniaapplication1\\views\\dialogue.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|solutionrelative:avaloniaapplication1\\views\\dialogue.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\avaloniaapplication1\\avaloniaapplication1\\app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|solutionrelative:avaloniaapplication1\\app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\avaloniaapplication1\\avaloniaapplication1\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7710925D-8C0A-44CD-BA48-881846B3DD10}|AvaloniaApplication1\\AvaloniaApplication1.csproj|solutionrelative:avaloniaapplication1\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewLocator.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\ViewLocator.cs",
+              "RelativeDocumentMoniker": "AvaloniaApplication1\\ViewLocator.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\ViewLocator.cs",
+              "RelativeToolTip": "AvaloniaApplication1\\ViewLocator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:27:21.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DialogViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\ViewModels\\DialogViewModel.cs",
+              "RelativeDocumentMoniker": "AvaloniaApplication1\\ViewModels\\DialogViewModel.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\ViewModels\\DialogViewModel.cs",
+              "RelativeToolTip": "AvaloniaApplication1\\ViewModels\\DialogViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:27:15.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "AvaloniaApplication1\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "AvaloniaApplication1\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:26:58.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "AvaloniaApplication1\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "AvaloniaApplication1\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:26:55.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "AvaloniaApplication1\\Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "AvaloniaApplication1\\Views\\MainWindow.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-13T22:26:44.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\Views\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "AvaloniaApplication1\\Views\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\Views\\MainWindow.axaml.cs",
+              "RelativeToolTip": "AvaloniaApplication1\\Views\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:26:30.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dialogue.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\Views\\Dialogue.axaml.cs",
+              "RelativeDocumentMoniker": "AvaloniaApplication1\\Views\\Dialogue.axaml.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\Views\\Dialogue.axaml.cs",
+              "RelativeToolTip": "AvaloniaApplication1\\Views\\Dialogue.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:26:28.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dialogue.axaml",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\Views\\Dialogue.axaml",
+              "RelativeDocumentMoniker": "AvaloniaApplication1\\Views\\Dialogue.axaml",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\Views\\Dialogue.axaml",
+              "RelativeToolTip": "AvaloniaApplication1\\Views\\Dialogue.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-13T22:26:26.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\App.axaml",
+              "RelativeDocumentMoniker": "AvaloniaApplication1\\App.axaml",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\App.axaml",
+              "RelativeToolTip": "AvaloniaApplication1\\App.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-13T22:26:17.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\App.axaml.cs",
+              "RelativeDocumentMoniker": "AvaloniaApplication1\\App.axaml.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\AvaloniaApplication1\\AvaloniaApplication1\\App.axaml.cs",
+              "RelativeToolTip": "AvaloniaApplication1\\App.axaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:26:00.085Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Tp2Api.props" />
+</Project>

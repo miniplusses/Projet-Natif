@@ -1,0 +1,179 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Tp2Application.Views.KnowledgeResearchView"
+        x:CompileBindings="True"
+        xmlns:vm="using:Tp2Application.ViewModels"
+        x:DataType="vm:KnowledgeResearchViewModel">
+        
+        <Design.DataContext>
+                <vm:KnowledgeResearchViewModel/>
+        </Design.DataContext>
+    
+        <UserControl.Styles>
+            <Style Selector="Border">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <LinearGradientBrush StartPoint="0%,0%" EndPoint="1%,0.7%">
+                            <GradientStop Color="#24105F" Offset="0"/>
+                            <GradientStop Color="#210F55" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style Selector="StackPanel > TextBox">
+                <Setter Property="Foreground" Value="White"/>
+            </Style>
+            <Style Selector="StackPanel > TextBox /template/Border">
+                <Setter Property="BorderThickness" Value="2"/>
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+                <Setter Property="CornerRadius" Value="3"/>
+                <Setter Property="Background" Value="#281269"/>
+            </Style>
+            <Style Selector="StackPanel > TextBox:pointerover /template/Border">
+                <Setter Property="Background" Value="#BCBEE0"/>
+                <Setter Property="BorderThickness" Value="3"/>
+            </Style>
+            <Style Selector="StackPanel > TextBox:focus /template/Border">
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+                <Setter Property="Background" Value="#BCBEE0"/>
+            </Style>
+            <Style Selector="Button">
+                <Setter Property="BorderThickness" Value="2"/>
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+                <Setter Property="Background" Value="#281269"/>
+                <Setter Property="Foreground" Value="White"/>
+            </Style>
+            <Style Selector="Button:pointerover /template/ContentPresenter">
+                <Setter Property="BorderThickness" Value="2"/>
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+                <Setter Property="Background" Value="#BCBEE0"/>
+            </Style>
+            <Style Selector="StackPanel > SplitButton">
+                <Setter Property="BorderThickness" Value="2"/>
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+                <Setter Property="Background" Value="#281269"/>
+                <Setter Property="Foreground" Value="White"/>
+            </Style>
+            <Style Selector="StackPanel > SplitButton:pointerover /template/Button#PART_SecondaryButton/template/ContentPresenter">
+                <Setter Property="Background" Value="#BCBEE0"/>
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="BorderThickness" Value="0, 2,2,2"/>
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+            </Style>
+            <Style Selector="StackPanel > SplitButton:pointerover /template/Button#PART_PrimaryButton/template/ContentPresenter">
+                <Setter Property="Background" Value="#BCBEE0"/>
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="BorderThickness" Value="2,2,0,2"/>
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+            </Style>
+            <Style Selector="StackPanel > SplitButton:focus /template/Button#PART_SecondaryButton/template/ContentPresenter">
+                <Setter Property="Background" Value="#BCBEE0"/>
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="BorderThickness" Value="0, 2,2,2"/>
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+            </Style>
+            <Style Selector="StackPanel > SplitButton:focus /template/Button#PART_PrimaryButton/template/ContentPresenter">
+                <Setter Property="Background" Value="#BCBEE0"/>
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="BorderThickness" Value="2,2,0,2"/>
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+            </Style>
+            <Style Selector="StackPanel > SplitButton:flyout-open /template/Button#PART_SecondaryButton/template/ContentPresenter">
+                <Setter Property="Background" Value="#BCBEE0"/>
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="BorderThickness" Value="0, 2,2,2"/>
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+            </Style>
+            <Style Selector="StackPanel > SplitButton:flyout-open /template/Button#PART_PrimaryButton/template/ContentPresenter">
+                <Setter Property="Background" Value="#BCBEE0"/>
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="BorderThickness" Value="2,2,0,2"/>
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+            </Style>
+        </UserControl.Styles>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="6.5*"/>
+                <RowDefinition Height="1.5*"/>
+            </Grid.RowDefinitions>
+            
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Border Grid.Column="0" CornerRadius="10" Margin="50, 20, 20 ,20" ClipToBounds="True">
+                    <StackPanel VerticalAlignment="Center" Orientation="Horizontal" HorizontalAlignment="Center" Spacing="10" >
+                        <TextBox Width="200" Text="{Binding Search}"/>
+                        <Button Command="{Binding SearchKnowledge}">Rechercher</Button>
+                    </StackPanel>
+                </Border>
+                
+                <Border Grid.Column="1" CornerRadius="10" Margin="20, 20, 50 ,20" ClipToBounds="True">
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="5">
+                        <StackPanel>
+                            <SplitButton Content="{Binding SelectedCategorie}"  Width="305">
+                                <SplitButton.Flyout>
+                                    <MenuFlyout Placement="BottomEdgeAlignedLeft">
+                                        <MenuItem Header="Titre" Command="{Binding MenuItemClickCommand}" CommandParameter="Titre"/>
+                                        <MenuItem Header="Description" Command="{Binding MenuItemClickCommand}" CommandParameter="Description"/>
+                                        <MenuItem Header="Catégorie" Command="{Binding MenuItemClickCommand}" CommandParameter="Catégorie"/>
+                                        <MenuItem Header="Prix" Command="{Binding MenuItemClickCommand}" CommandParameter="Prix"/>
+                                        <MenuItem Header="Développement">
+                                           <MenuItem Header="Développeur" Command="{Binding MenuItemClickCommand}" CommandParameter="Développeur"/>
+                                           <MenuItem Header="Éditeur" Command="{Binding MenuItemClickCommand}" CommandParameter="Éditeur"/>
+                                           <MenuItem Header="Franchise" Command="{Binding MenuItemClickCommand}" CommandParameter="Franchise"/>
+                                           <MenuItem Header="Parution" Command="{Binding MenuItemClickCommand}" CommandParameter="Parution"/> 
+                                        </MenuItem>
+                                        <MenuItem Header="Évaluation" Command="{Binding MenuItemClickCommand}" CommandParameter="Évaluation"/>
+                                        <MenuItem Header="Platforme" Command="{Binding MenuItemClickCommand}" CommandParameter="Platforme"/>
+                                        <MenuItem Header="Manette" Command="{Binding MenuItemClickCommand}" CommandParameter="Manette"/>
+                                        <MenuItem Header="Complet" Command="{Binding MenuItemClickCommand}" CommandParameter="Complet"/>
+                                    </MenuFlyout>
+                                </SplitButton.Flyout>
+                            </SplitButton>
+                        </StackPanel>
+                        <StackPanel Spacing="10" Orientation="Horizontal">
+                            <TextBox Width="200" Text="{Binding AdvancedSearch}"/>
+                            <Button Command="{Binding AdvancedSearchKnowledge}">Rechercher</Button>
+                        </StackPanel>
+                        <TextBlock Foreground="Red" Text="{Binding ErrorAdvancedSearch}"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+            
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="9*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                </Grid.ColumnDefinitions>
+                
+                
+                <Border Grid.Column="1" CornerRadius="10" ClipToBounds="True" Margin="0, 0, 0, 10">
+                    <ListBox ItemsSource="{Binding ListKnowledge}" ScrollViewer.VerticalScrollBarVisibility="Auto" SelectedItem="{Binding SelectedKnowledge}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock
+                                    Text="{Binding title}"
+                                    TextWrapping="Wrap"/>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Border>
+            </Grid>
+            
+            <Grid Grid.Row="2">
+                <Border CornerRadius="10" ClipToBounds="True" Margin="50, 20, 50 ,20">
+                    <Button Margin="0,20,0,0" Command="{Binding NavigateToDetailsCommand}" HorizontalAlignment="Center" VerticalAlignment="Center">Détails</Button>
+                </Border>
+            </Grid>
+        </Grid>
+        
+</UserControl>

@@ -1,0 +1,360 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\viewmodels\\knowledgeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\viewmodels\\knowledgeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\viewmodels\\pageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\viewmodels\\pageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\viewmodels\\connectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\viewmodels\\connectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\models\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\models\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\models\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\models\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\views\\connectionview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\views\\connectionview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\viewmodels\\manageknowledgeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\viewmodels\\manageknowledgeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\viewmodels\\manageuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\viewmodels\\manageuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\viewmodels\\detailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\viewmodels\\detailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\viewmodels\\addknowledgeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\viewmodels\\addknowledgeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\models\\optionalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\models\\optionalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\models\\optionaldevinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\models\\optionaldevinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\models\\knowledge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\models\\knowledge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|c:\\users\\yanni\\onedrive - usherbrooke\\stage \u00E9t\u00E9 2025\\appnative\\tp2\\tp2application\\tp2application\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF453A2-E392-492F-BAE3-A52F6C7B1DA9}|Tp2Application\\Tp2Application.csproj|solutionrelative:tp2application\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConnectionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\ConnectionViewModel.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\ViewModels\\ConnectionViewModel.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\ConnectionViewModel.cs",
+              "RelativeToolTip": "Tp2Application\\ViewModels\\ConnectionViewModel.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswEQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:38:34.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "Tp2Application\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAYwB4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:37:02.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ManageKnowledgeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\ManageKnowledgeViewModel.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\ViewModels\\ManageKnowledgeViewModel.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\ManageKnowledgeViewModel.cs",
+              "RelativeToolTip": "Tp2Application\\ViewModels\\ManageKnowledgeViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:37:00.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KnowledgeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\KnowledgeViewModel.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\ViewModels\\KnowledgeViewModel.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\KnowledgeViewModel.cs",
+              "RelativeToolTip": "Tp2Application\\ViewModels\\KnowledgeViewModel.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAIwFIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:35:41.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ManageUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\ManageUserViewModel.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\ViewModels\\ManageUserViewModel.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\ManageUserViewModel.cs",
+              "RelativeToolTip": "Tp2Application\\ViewModels\\ManageUserViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAASwAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:34:43.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\PageViewModel.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\ViewModels\\PageViewModel.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\PageViewModel.cs",
+              "RelativeToolTip": "Tp2Application\\ViewModels\\PageViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:34:40.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "Tp2Application\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:34:37.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\DetailsViewModel.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\ViewModels\\DetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\DetailsViewModel.cs",
+              "RelativeToolTip": "Tp2Application\\ViewModels\\DetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:34:35.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddKnowledgeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\AddKnowledgeViewModel.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\ViewModels\\AddKnowledgeViewModel.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewModels\\AddKnowledgeViewModel.cs",
+              "RelativeToolTip": "Tp2Application\\ViewModels\\AddKnowledgeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:34:32.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\Models\\User.cs",
+              "RelativeToolTip": "Tp2Application\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:34:14.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OptionalInfo.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\Models\\OptionalInfo.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\Models\\OptionalInfo.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\Models\\OptionalInfo.cs",
+              "RelativeToolTip": "Tp2Application\\Models\\OptionalInfo.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:34:11.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OptionalDevInfo.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\Models\\OptionalDevInfo.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\Models\\OptionalDevInfo.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\Models\\OptionalDevInfo.cs",
+              "RelativeToolTip": "Tp2Application\\Models\\OptionalDevInfo.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:34:06.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Knowledge.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\Models\\Knowledge.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\Models\\Knowledge.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\Models\\Knowledge.cs",
+              "RelativeToolTip": "Tp2Application\\Models\\Knowledge.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:34:03.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\Models\\Database.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\Models\\Database.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\Models\\Database.cs",
+              "RelativeToolTip": "Tp2Application\\Models\\Database.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:33:40.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiRequest.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\Models\\ApiRequest.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\Models\\ApiRequest.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\Models\\ApiRequest.cs",
+              "RelativeToolTip": "Tp2Application\\Models\\ApiRequest.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:33:38.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\App.axaml.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\App.axaml.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\App.axaml.cs",
+              "RelativeToolTip": "Tp2Application\\App.axaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T20:18:16.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConnectionView.axaml",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\Views\\ConnectionView.axaml",
+              "RelativeDocumentMoniker": "Tp2Application\\Views\\ConnectionView.axaml",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\Views\\ConnectionView.axaml",
+              "RelativeToolTip": "Tp2Application\\Views\\ConnectionView.axaml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-24T20:17:57.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\App.axaml",
+              "RelativeDocumentMoniker": "Tp2Application\\App.axaml",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\App.axaml",
+              "RelativeToolTip": "Tp2Application\\App.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-24T20:17:07.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ViewLocator.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewLocator.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\ViewLocator.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\ViewLocator.cs",
+              "RelativeToolTip": "Tp2Application\\ViewLocator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T20:16:44.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\Program.cs",
+              "RelativeDocumentMoniker": "Tp2Application\\Program.cs",
+              "ToolTip": "C:\\Users\\yanni\\OneDrive - USherbrooke\\Stage \u00E9t\u00E9 2025\\AppNative\\Tp2\\Tp2Application\\Tp2Application\\Program.cs",
+              "RelativeToolTip": "Tp2Application\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T20:16:46.428Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

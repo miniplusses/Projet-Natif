@@ -1,0 +1,134 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Tp2Application.Views.AddKnowledgeView"
+             xmlns:vm="using:Tp2Application.ViewModels"
+             x:DataType="vm:AddKnowledgeViewModel">
+    
+        <Design.DataContext>
+            <vm:AddKnowledgeViewModel/>
+        </Design.DataContext>
+    
+        <UserControl.Styles>
+            <Style Selector="Border">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <LinearGradientBrush StartPoint="0%,0%" EndPoint="1%,0.7%">
+                            <GradientStop Color="#24105F" Offset="0"/>
+                            <GradientStop Color="#210F55" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style Selector="TextBox">
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="Margin" Value="0,2.5,0,2.5"/>
+            </Style>
+            <Style Selector="TextBox /template/Border">
+                <Setter Property="BorderThickness" Value="2"/>
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+                <Setter Property="CornerRadius" Value="3"/>
+                <Setter Property="Background" Value="#281269"/>
+            </Style>
+            <Style Selector="TextBox:pointerover /template/Border">
+                <Setter Property="Background" Value="#BCBEE0"/>
+                <Setter Property="BorderThickness" Value="3"/>
+            </Style>
+            <Style Selector="TextBox:focus /template/Border">
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+                <Setter Property="Background" Value="#BCBEE0"/>
+            </Style>
+            <Style Selector="TextBlock.TextEdit">
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontSize" Value="14"/>
+            </Style>
+            <Style Selector="StackPanel > Button.Add">
+                <Setter Property="Background" Value="Green"/>
+            </Style>
+            <Style Selector="StackPanel > Button.Add:pointerover /template/ContentPresenter">
+                <Setter Property="Background" Value="GreenYellow"/>
+            </Style>
+            <Style Selector="Grid > Button">
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+                <Setter Property="Background" Value="#BCBEE0"/>
+            </Style>
+            <Style Selector="Grid > Button:pointerover /template/ContentPresenter">
+                <Setter Property="BorderBrush" Value="#7376BD"/>
+                <Setter Property="Background" Value="#7376BD"/>
+            </Style>
+        </UserControl.Styles>
+        
+        <Grid>
+            <Border CornerRadius="10" Margin="25,30,50,30" ClipToBounds="True">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="8*"/>
+                        <RowDefinition Height="2*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" VerticalAlignment="Center" Margin="50,0,50,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        
+                        <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="0">
+                            <TextBlock Text="Titre: " Classes="TextEdit"/>
+                            <TextBlock Text="*" Foreground="Red" VerticalAlignment="Center"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="1">
+                            <TextBlock Text="Description: " Classes="TextEdit"/>
+                            <TextBlock Text="*" Foreground="Red" VerticalAlignment="Center"/>
+                        </StackPanel>
+                        <TextBlock Grid.Column="0" Grid.Row="2" Text="Catégorie: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="3" Text="Prix: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="4" Text="Parution: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="5" Text="Développeur: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="6" Text="Éditeur: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="7" Text="Franchise: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="8" Text="Évaluation: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="9" Text="Platforme: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="10" Text="Manette: " Classes="TextEdit"/>
+                        <TextBlock Grid.Column="0" Grid.Row="11" Text="Complet: " Classes="TextEdit"/>
+                        
+                        <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding NewKnowledge.title}"/>
+                        <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding NewKnowledge.description}"/>
+                        <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding NewKnowledge.data.CategorieFormatted}"/>
+                        <TextBox Grid.Column="1" Grid.Row="3" Text="{Binding NewKnowledge.data.prix}"/>
+                        <TextBox Grid.Column="1" Grid.Row="4" Text="{Binding NewKnowledge.data.developpement.parutionFormatted}" Watermark="AAAA-MM-JJ"/>
+                        <TextBox Grid.Column="1" Grid.Row="5" Text="{Binding NewKnowledge.data.developpement.developpeur}"/>
+                        <TextBox Grid.Column="1" Grid.Row="6" Text="{Binding NewKnowledge.data.developpement.editeur}"/>
+                        <TextBox Grid.Column="1" Grid.Row="7" Text="{Binding NewKnowledge.data.developpement.franchise}"/>
+                        <TextBox Grid.Column="1" Grid.Row="8" Text="{Binding NewKnowledge.data.evaluation}"/>
+                        <TextBox Grid.Column="1" Grid.Row="9" Text="{Binding NewKnowledge.data.platforme}"/>
+                        <TextBox Grid.Column="1" Grid.Row="10" Text="{Binding NewKnowledge.data.manette}"/>
+                        <Button Grid.Column="1" Grid.Row="11" Command="{Binding Completed}" Content="{Binding CompleteEntry}"/>
+                    </Grid>
+                    <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        <Button HorizontalAlignment="Center" Classes="Add" Command="{Binding Add}" Padding="20,10,20,10">Ajouter</Button>
+                        <TextBlock Foreground="Red" Text="{Binding Error}"/>
+                        <TextBlock Foreground="Green" Text="{Binding Success}"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+</UserControl>

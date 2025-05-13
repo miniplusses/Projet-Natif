@@ -1,0 +1,50 @@
+is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Tp2Application
+build_property.ProjectDir = C:\Users\yanni\OneDrive - USherbrooke\Stage été 2025\AppNative\Tp2\Tp2Application\Tp2Application\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 7.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/yanni/OneDrive - USherbrooke/Stage été 2025/AppNative/Tp2/Tp2Application/Tp2Application/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/yanni/OneDrive - USherbrooke/Stage été 2025/AppNative/Tp2/Tp2Application/Tp2Application/Views/AddKnowledgeView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/yanni/OneDrive - USherbrooke/Stage été 2025/AppNative/Tp2/Tp2Application/Tp2Application/Views/ConnectionView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/yanni/OneDrive - USherbrooke/Stage été 2025/AppNative/Tp2/Tp2Application/Tp2Application/Views/DetailsView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/yanni/OneDrive - USherbrooke/Stage été 2025/AppNative/Tp2/Tp2Application/Tp2Application/Views/KnowledgeResearchView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/yanni/OneDrive - USherbrooke/Stage été 2025/AppNative/Tp2/Tp2Application/Tp2Application/Views/KnowledgeView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/yanni/OneDrive - USherbrooke/Stage été 2025/AppNative/Tp2/Tp2Application/Tp2Application/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/yanni/OneDrive - USherbrooke/Stage été 2025/AppNative/Tp2/Tp2Application/Tp2Application/Views/ManageKnowledgeView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/yanni/OneDrive - USherbrooke/Stage été 2025/AppNative/Tp2/Tp2Application/Tp2Application/Views/ManageUserView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/yanni/OneDrive - USherbrooke/Stage été 2025/AppNative/Tp2/Tp2Application/Tp2Application/Views/RegisterView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
